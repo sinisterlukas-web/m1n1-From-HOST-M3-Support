@@ -1,0 +1,30 @@
+/dts-v1/;
+
+/ {
+    model = "Apple M4 Experimental (t8132)";
+    compatible = "apple,t8132", "apple,arm-platform";
+    #address-cells = <2>;
+    #size-cells = <2>;
+
+    /* Tells Linux where the serial port is for logs */
+    chosen {
+        stdout-path = "serial0";
+    };
+
+    cpus {
+        #address-cells = <1>;
+        #size-cells = <0>;
+        cpu0: cpu@0 {
+            device_type = "cpu";
+            compatible = "arm,arm-v8"; // Generic for now
+            reg = <0x0>;
+            enable-method = "psci";
+        };
+    };
+
+    /* Example: 8GB of RAM starting at the Apple Silicon offset */
+    memory@800000000 {
+        device_type = "memory";
+        reg = <0x8 0x00000000 0x2 0x00000000>; 
+    };
+};
