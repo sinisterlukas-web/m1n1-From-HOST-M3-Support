@@ -1,0 +1,5 @@
+build/             # Ignore compiled binaries
+linuxbucket/Image  # Ignore the actual large kernel
+dtbucket/*.dtb     # Ignore compiled device tree binaries
+*.o                # Ignore object files
+__pycache__/       # Ignore Python cache
