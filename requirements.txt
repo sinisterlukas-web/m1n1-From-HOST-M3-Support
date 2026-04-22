@@ -1,0 +1,36 @@
+# m1n1 M3 Support - Minimum System Requirements
+
+# Hardware Requirements
+# ====================
+# Minimum RAM: 2GB
+# Processor: ARM Cortex-A76 or compatible
+# Architecture: ARM64 (aarch64)
+
+# Build Tools and Dependencies
+aarch64-linux-gnu-gcc
+llvm>=11.0.0
+lld>=11.0.0
+gcc>=9.0.0
+make>=4.0
+git>=2.30.0
+
+# Optional: For container-based builds
+podman>=3.0.0  # or docker>=20.10.0
+
+# Development Libraries
+libfdt-dev
+zlib1g-dev
+
+# More Specific Specifications
+
+# m1n1 M3 Support - Build Requirements
+# Minimum Hardware: 2GB RAM, Cortex-A76 processor
+
+aarch64-linux-gnu-gcc>=10.0
+llvm>=11.0
+lld>=11.0
+gcc>=9.0
+make>=4.0
+git>=2.30
+libfdt-dev
+zlib1g-dev
