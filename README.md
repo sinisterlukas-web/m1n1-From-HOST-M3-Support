@@ -1,7 +1,7 @@
 # m1n1: A bootloader and experimentation playground for Apple Silicon
 NOTE: _**This remix for my personal m1n1 m3 support project is still upheld to the same certifications as the m1n1 repository (as it was based on) created by Asahi Linux.**_
 ## Building
-NOTE 2: For those booting an OS with a centralised account system, it is nessecary to run the following command: chmod +x setup.sh
+NOTE 2: For those booting an OS with a centralised account system, it is nessecary to run the following command: 'chmod +x setup.sh'
 
 You need an `aarch64-linux-gnu-gcc` cross-compiler toolchain (or a native one, if running on ARM64).
 
