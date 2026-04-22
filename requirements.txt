@@ -32,6 +32,12 @@ ipdb
 requests
 pillow    # Added for GUI image/logo handling
 
+ONCE AGAIN: 
+pyserial
+construct
+requests
+pillow
+
 aarch64-linux-gnu-gcc>=10.0
 llvm>=11.0
 lld>=11.0
