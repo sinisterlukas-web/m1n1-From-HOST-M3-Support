@@ -1,0 +1,1 @@
+#ifndef M1N1_GUI_WRAPPER_H\n#define M1N1_GUI_WRAPPER_H\n\nvoid m1n1_gui_init();\nvoid m1n1_gui_main();\nvoid m1n1_gui_printf(const char *fmt, ...);\n\n#endif // M1N1_GUI_WRAPPER_H
