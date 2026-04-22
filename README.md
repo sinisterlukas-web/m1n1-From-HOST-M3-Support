@@ -1,5 +1,5 @@
 # m1n1: A bootloader and experimentation playground for Apple Silicon
-#! This pull request for my personal m1n1 m3 support project is still upheld to the same certifications as the m1n1 repository hosted from Asahi Linux.
+'This remix for my personal m1n1 m3 support project is still upheld to the same certifications as the m1n1 repository (as it was based on) created by Asahi Linux.'
 ## Building
 
 You need an `aarch64-linux-gnu-gcc` cross-compiler toolchain (or a native one, if running on ARM64).
