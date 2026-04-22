@@ -1,0 +1,8 @@
+ALL USERS: 
+To get the kernel binary (Image) for Fedora Asahi Remix:
+1. Browse to the official mirror:
+   https://asahilinux.org
+2. Look for the 'kernel' or 'Image' file in the latest Fedora subfolders.
+3. Download it and rename it to exactly 'Image' (no extension).
+4. Place it here in the 'linuxbucket' folder.
+5. Run your chainload command: python3 chainload.py -k linuxbucket/Image -d dtbucket/m4.dtb
