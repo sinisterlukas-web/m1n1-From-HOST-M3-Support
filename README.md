@@ -1,4 +1,5 @@
 # m1n1: A bootloader and experimentation playground for Apple Silicon
+<img width="640" height="640" alt="Unknown" src="https://github.com/user-attachments/assets/228f21fa-2123-4262-9276-e5e950c62070" />
 NOTE: _**This remix for my personal m1n1 m3 support project is still upheld to the same certifications as the m1n1 repository (as it was based on) created by Asahi Linux.**_
 ## Building
 NOTE 2: For those booting an OS with a centralised account system, it is nessecary to run the following command: `chmod +x setup.sh`
