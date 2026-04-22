@@ -26,6 +26,12 @@ zlib1g-dev
 # m1n1 M3 Support - Build Requirements
 # Minimum Hardware: 2GB RAM, Cortex-A76 processor
 
+pyserial
+construct
+ipdb
+requests
+pillow    # Added for GUI image/logo handling
+
 aarch64-linux-gnu-gcc>=10.0
 llvm>=11.0
 lld>=11.0
